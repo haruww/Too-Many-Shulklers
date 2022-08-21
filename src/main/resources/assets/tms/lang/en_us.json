@@ -1,0 +1,11 @@
+{
+  "item.tms.arrow_shulker_spawn_egg": "Arrow Shulker Spawn Egg",
+  "item.tms.explosive_shulker_spawn_egg": "Explosive Shulker Spawn Egg",
+  "item.tms.firecharge_shulker_spawn_egg": "Homing Fireball Shulker Spawn Egg",
+  "item.tms.poison_shulker_spawn_egg": "Homing Poison Shulker Spawn Egg",
+
+  "entity.tms.arrow_shulker": "Arrow Shulker",
+  "entity.tms.explosive_shulker": "Explosive Shulker",
+  "entity.tms.homing_fireball_shulker": "Homing Fireball Shulker",
+  "entity.tms.homing_bullet_shulker": "Homing Poison Shulker"
+}

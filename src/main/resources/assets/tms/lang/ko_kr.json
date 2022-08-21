@@ -1,0 +1,11 @@
+{
+  "item.tms.arrow_shulker_spawn_egg": "화살 셜커 생성 알",
+  "item.tms.explosive_shulker_spawn_egg": "폭발 셜커 생성 알",
+  "item.tms.firecharge_shulker_spawn_egg": "유도 화염구 셜커 생성 알",
+  "item.tms.poison_shulker_spawn_egg": "유도 독 셜커 생성 알",
+
+  "entity.tms.arrow_shulker": "화살 셜커",
+  "entity.tms.explosive_shulker": "폭발 셜커",
+  "entity.tms.homing_fireball_shulker": "유도 화염구 셜커",
+  "entity.tms.homing_bullet_shulker": "유도 독 셜커"
+}
