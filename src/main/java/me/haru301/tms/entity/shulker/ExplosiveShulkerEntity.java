@@ -45,7 +45,7 @@ public class ExplosiveShulkerEntity extends AbstractCustomShulkerEntity
     public static AttributeModifierMap.MutableAttribute getAttributes() {
         return LivingEntity.registerAttributes()
                 .createMutableAttribute(Attributes.MAX_HEALTH, 30.0D) //TODO SET
-                .createMutableAttribute(Attributes.FOLLOW_RANGE, 32.0D)
+                .createMutableAttribute(Attributes.FOLLOW_RANGE, 64.0D)
                 .createMutableAttribute(Attributes.ATTACK_KNOCKBACK);
     }
 
@@ -94,7 +94,7 @@ public class ExplosiveShulkerEntity extends AbstractCustomShulkerEntity
                 LivingEntity livingentity = ExplosiveShulkerEntity.this.getAttackTarget();
                 ExplosiveShulkerEntity.this.getLookController().setLookPositionWithEntity(livingentity, 180.0F, 180.0F);
                 double d0 = ExplosiveShulkerEntity.this.getDistanceSq(livingentity);
-                if (d0 < 1024.0D) {
+                if (d0 < 4096.0D) {
                     if (this.attackTime <= 0) {
                         this.attackTime = 50; //TODO Balance Fix
 
